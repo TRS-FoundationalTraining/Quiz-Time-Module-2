@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest identifier="_5YBGtcRRVuK" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+<manifest identifier="_6ZmoYEWFxZT" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
   <metadata>
     <schema>ADL SCORM</schema>
     <schemaversion>1.2</schemaversion>
@@ -53,18 +53,19 @@
   <organizations default="Quiz_Time_ORG">
     <organization identifier="Quiz_Time_ORG">
       <title>Quiz Time</title>
-      <item identifier="Quiz_Time_SCO" isvisible="true" identifierref="__5YBGtcRRVuK_RES">
+      <item identifier="Quiz_Time_SCO" isvisible="true" identifierref="__6ZmoYEWFxZT_RES">
         <title>Quiz Time</title>
       </item>
     </organization>
   </organizations>
   <resources>
-    <resource identifier="__5YBGtcRRVuK_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+    <resource identifier="__6ZmoYEWFxZT_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
       <file href="story_content/thumbnail.jpg" />
       <file href="mobile/5V1OIZYaz5P_P_0_50_1401_785.png" />
       <file href="mobile/5lppE7fZKTc_P_38_172_432_140.png" />
       <file href="mobile/5V1OIZYaz5P_P_0_0_1401_785.png" />
       <file href="meta.xml" />
+      <file href="story_content/triggers.js" />
       <file href="story_content/user.js" />
       <file href="html5/data/css/output.min.css" />
       <file href="html5/data/js/5njM0s16HXP.js" />
@@ -72,7 +73,6 @@
       <file href="html5/data/js/data.js" />
       <file href="html5/data/js/frame.js" />
       <file href="html5/data/js/paths.js" />
-      <file href="html5/lib/hls/hls.min.js" />
       <file href="html5/lib/scripts/bootstrapper.min.js" />
       <file href="html5/lib/scripts/frame.desktop.min.js" />
       <file href="html5/lib/scripts/frame.mobile.min.js" />
